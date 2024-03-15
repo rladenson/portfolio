@@ -1,0 +1,35 @@
+:root {
+    --navy: #051c3c;
+    --navy-half-opacity: rgba(5,28,60,.5);
+    --teal: #1ca7be;
+    --gold: #ae9550;
+    --bg: #e4fcff;
+}
+body {
+    color: var(--navy);
+    background-color: var(--bg);
+}
+nav, .navbar-brand {
+    background-color: var(--navy);
+    color: var(--teal);
+}
+.navbar-brand > img {
+    height: 2em;
+}
+
+#projects {
+    display: flex;
+    flex-wrap: wrap;
+}
+#projects a {
+    text-decoration: none;
+    color: var(--navy);
+}
+.card {
+    background-color: var(--navy-half-opacity);
+    margin: 1em;
+}
+.card-body {
+    color: var(--gold);
+    background-color: var(--navy);
+}
