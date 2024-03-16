@@ -9,20 +9,26 @@ body {
     color: var(--navy);
     background-color: var(--bg);
 }
+main {
+    padding: 8px;
+}
 nav, .navbar-brand {
     background-color: var(--navy);
     color: var(--teal);
+}
+.navbar-brand:hover {
+    color: var(--gold);
 }
 .navbar-brand > img {
     height: 2em;
 }
 
-#projects {
+.projects {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
-#projects a {
+.projects a {
     text-decoration: none;
     color: var(--navy);
 }
