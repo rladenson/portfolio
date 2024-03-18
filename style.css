@@ -1,5 +1,6 @@
 :root {
     --navy: #051c3c;
+    --navy-light: #083169;
     --navy-half-opacity: rgba(5,28,60,.5);
     --teal: #1ca7be;
     --gold: #ae9550;
@@ -47,4 +48,16 @@ nav, .navbar-brand {
 .card-images > img {
     height: 286px;
     border: 2px solid var(--navy);
+}
+#portrait {
+    height: 400px;
+    border-radius: 100vw;
+}
+.btn {
+    background-color: var(--navy);
+    color: var(--teal);
+}
+.btn:hover {
+    background-color: var(--navy-light);
+    color: var(--teal);
 }
