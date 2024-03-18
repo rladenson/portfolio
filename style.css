@@ -13,23 +13,22 @@ body {
 main {
     padding: 8px;
 }
-nav, .navbar-brand {
+nav, .navbar-brand, .nav-link {
     background-color: var(--navy);
     color: var(--teal);
 }
-.navbar-brand:hover {
+.navbar-brand:hover, .nav-link:hover {
     color: var(--gold);
 }
 .navbar-brand > img {
     height: 2em;
 }
-
 .projects {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
-.projects a {
+a {
     text-decoration: none;
     color: var(--navy);
 }
@@ -60,4 +59,8 @@ nav, .navbar-brand {
 .btn:hover {
     background-color: var(--navy-light);
     color: var(--teal);
+}
+.lead {
+    margin: auto;
+    max-width: 1000px;
 }
