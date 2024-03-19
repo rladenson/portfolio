@@ -57,6 +57,7 @@ a {
 .btn {
     background-color: var(--navy);
     color: var(--teal);
+    margin: 3px;
 }
 .btn:hover {
     background-color: var(--navy-light);
@@ -71,4 +72,7 @@ a {
 }
 .navbar-toggler > svg {
     color: var(--teal);
+}
+.modal-body a {
+    all: revert;
 }
